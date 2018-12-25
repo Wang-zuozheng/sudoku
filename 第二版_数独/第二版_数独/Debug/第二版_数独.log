@@ -1,0 +1,4 @@
+﻿  sudoku.cpp
+c:\users\王佐正\desktop\c语言\软工\第二版_数独\第二版_数独\function.h(93): warning C4099: “node”: 类型名称以前使用“class”现在使用的是“struct”
+  c:\users\王佐正\desktop\c语言\软工\第二版_数独\第二版_数独\function.h(75): note: 参见“node”的声明
+  第二版_数独.vcxproj -> C:\Users\王佐正\Desktop\C语言\软工\第二版_数独\Debug\第二版_数独.exe
