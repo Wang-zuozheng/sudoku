@@ -1,0 +1,9 @@
+﻿  unittest1.cpp
+c:\users\王佐正\desktop\大三上\软工基础\sudoku\第三版_数独\function.h(124): warning C4099: “node”: 类型名称以前使用“class”现在使用的是“struct”
+  c:\users\王佐正\desktop\大三上\软工基础\sudoku\第三版_数独\function.h(97): note: 参见“node”的声明
+c:\users\王佐正\desktop\大三上\软工基础\sudoku\unittest1\unittest1.cpp(92): warning C4101: “p”: 未引用的局部变量
+c:\users\王佐正\desktop\大三上\软工基础\sudoku\unittest1\unittest1.cpp(104): warning C4101: “p”: 未引用的局部变量
+c:\users\王佐正\desktop\大三上\软工基础\sudoku\unittest1\unittest1.cpp(118): warning C4101: “p”: 未引用的局部变量
+c:\users\王佐正\desktop\大三上\软工基础\sudoku\unittest1\unittest1.cpp(132): warning C4101: “p”: 未引用的局部变量
+c:\users\王佐正\desktop\大三上\软工基础\sudoku\unittest1\unittest1.cpp(160): warning C4101: “p”: 未引用的局部变量
+  UnitTest1.vcxproj -> C:\Users\王佐正\Desktop\大三上\软工基础\sudoku\Debug\UnitTest1.dll

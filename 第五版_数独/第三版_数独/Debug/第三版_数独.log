@@ -1,0 +1,4 @@
+﻿  sudoku.cpp
+c:\users\王佐正\desktop\大三上\软工基础\sudoku\第三版_数独\function.h(124): warning C4099: “node”: 类型名称以前使用“class”现在使用的是“struct”
+  c:\users\王佐正\desktop\大三上\软工基础\sudoku\第三版_数独\function.h(97): note: 参见“node”的声明
+  第三版_数独.vcxproj -> C:\Users\王佐正\Desktop\大三上\软工基础\sudoku\Debug\sudoku.exe
