@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\王佐正\source\repos\终极版数独\终极版数独\</FILEPATH>
+      <FILENAME>function.h</FILENAME>
+      <LINE>225</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Solve::Point' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Solve::{ctor}</FUNCTION>
+    <DECORATED>??0Solve@@QAE@XZ</DECORATED>
+    <FUNCLINE>225</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>

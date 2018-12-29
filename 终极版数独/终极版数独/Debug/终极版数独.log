@@ -1,0 +1,6 @@
+﻿  sudoku.cpp
+c:\users\王佐正\source\repos\终极版数独\终极版数独\function.h(121): warning C4099: “node”: 类型名称以前使用“class”现在使用的是“struct”
+  c:\users\王佐正\source\repos\终极版数独\终极版数独\function.h(95): note: 参见“node”的声明
+LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/PROFILE”规范)
+sudoku.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/OPT:REF”规范)
+  终极版数独.vcxproj -> C:\Users\王佐正\source\repos\终极版数独\Debug\sudoku.exe
