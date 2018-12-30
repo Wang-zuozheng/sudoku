@@ -50,7 +50,7 @@ int main(int argc, char* argv[])
 
 		string sudoku = "sudoku.txt";
 		ofstream out(sudoku);
-		out << ans << endl;
+		out << ans;
 	}
 	//----------------------------solve sudoku-----------------------------------
 	else if (argc == 3 && strcmp(argv[1], "-s") == 0)
@@ -59,16 +59,14 @@ int main(int argc, char* argv[])
 		string input_path;
 		input_path = argv[2];
 
-		if (strcmp(argv[2], "shudu.txt") != 0)
-		{
-			cout << "请保证输入为shudu.txt" << endl;
-			return 0;
-		}
+		
 		//--------------------------exception handling-------------------------------
 		int cont = 0;
 		string output = "sudoku.txt";
 		string buf;
 		ifstream in(input_path);
+		if(!in)
+			cout << "请保证输入正确！" << endl;
 		ofstream ano_out(output);
 		new_Solve.Init();
 

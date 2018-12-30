@@ -88,7 +88,6 @@ namespace UnitTest1
 			Solve new_Solve_test;
 			string expect = "312456789", actual;
 			int cnt = 0;
-			int*p;
 			string buf = "3 1 2 4 5 6 7 8 9";
 			new_Solve_test.SaveProblem(cnt, buf);
 			actual = new_Solve_test.get_save(cnt);
@@ -100,7 +99,7 @@ namespace UnitTest1
 		{
 			Solve new_Solve_test;
 			int cnt = 0;
-			int*p;
+
 			string actual;
 			string buf = "3 1 2 4 5 6 7 8 9";
 			new_Solve_test.SaveProblem(cnt, buf);
@@ -114,7 +113,7 @@ namespace UnitTest1
 		{
 			Solve new_Solve_test;
 			int cnt = 0;
-			int*p;
+		
 			string actual;
 			string buf = "3 1 2 4 5 6 7 8 9";
 			new_Solve_test.SaveProblem(cnt, buf);
@@ -128,7 +127,7 @@ namespace UnitTest1
 		{
 			Solve new_Solve_test;
 			int cnt = 0, cnt1 = 1, cnt2 = 2, cnt3 = 3, cnt4 = 4, cnt5 = 5, cnt6 = 6, cnt7 = 7, cnt8 = 8;
-			int*p;
+	
 			string actual6, actual7, actual8;
 			string buf = "3 1 2 4 5 6 7 8 9", buf1 = "7 8 9 3 1 2 4 5 6", buf2 = "4 5 6 7 8 9 3 1 2", buf3 = "9 3 1 2 4 5 6 7 8", buf4 = "2 4 5 6 7 8 9 3 1", buf5 = "6 7 8 9 3 1 2 4 5", buf6 = "5 6 7 8 9 3 0 0 4", buf7 = "8 9 0 1 2 0 0 0 0", buf8 = "1 2 4 5 6 7 0 0 3";
 			string expect6 = "5 6 7 8 9 3 1 2 4", expect7 = "8 9 3 1 2 4 5 6 7", expect8 = "1 2 4 5 6 7 8 9 3";
@@ -156,7 +155,7 @@ namespace UnitTest1
 		{
 			Solve new_Solve_test;
 			int cnt = 0, cnt1 = 1, cnt2 = 2, cnt3 = 3, cnt4 = 4, cnt5 = 5, cnt6 = 6, cnt7 = 7, cnt8 = 8;
-			int*p;
+			
 			string actual1, actual2;
 			string buf = "3 1 2 4 5 6 7 8 9", buf1 = "7 8 0 0 1 2 4 5 0", buf2 = "4 5 0 7 8 0 0 1 2", buf3 = "9 3 1 2 4 5 6 7 8", buf4 = "2 4 5 6 7 8 9 3 1", buf5 = "6 7 8 9 3 1 2 4 5", buf6 = "5 6 7 8 9 3 1 2 4", buf7 = "8 9 3 1 2 4 5 6 7", buf8 = "1 2 4 5 6 7 8 9 3";
 			string expect1 = "7 8 9 3 1 2 4 5 6", expect2 = "4 5 6 7 8 9 3 1 2";

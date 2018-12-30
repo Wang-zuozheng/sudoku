@@ -27,6 +27,8 @@ public:
 	void BuildSudoku(int Row_change1, int Row_change2, int Row_change3, char *ans, int &cnt)
 	{
 		int i, k, j;
+		if(BuildCnt!=0)
+			ans[cnt++] = '\n';
 		for (i = 0; i < 9; i++)
 		{
 			ans[cnt++] = permutation[i] + '0';
@@ -67,7 +69,6 @@ public:
 				ans[cnt++] = '\n';
 			}
 		}
-		ans[cnt++] = '\n';
 	}
 	void Permutation_Change(char *ans, int &cnt, int &n)
 	{
